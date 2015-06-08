@@ -1,0 +1,15 @@
+{
+  "name": "My_Wyssiwyg",
+  "version": "1",
+  "authors": [
+    "djeb.sofiene@gmail.com"
+  ],
+  "description": "Jquery plugin web text editor, web@cademie",
+  "main": "myww.js",
+  "keywords": [
+    "web",
+    "text",
+    "editor"
+  ],
+  "license": "MIT"
+}

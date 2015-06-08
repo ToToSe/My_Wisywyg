@@ -1,0 +1,29 @@
+<html>
+<head>
+	<script src="jquery.js"></script>
+	<script src="jquery-ui.js"></script>
+	<script src="myww.js"></script>
+	<!--<script src="http://195.12.190.199:13013/socket.io/socket.io.js"></script>-->
+
+	<link rel="stylesheet" href="fa/css/font-awesome.min.css">
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+	<link rel="stylesheet" href="myww.css">
+</head>
+<body>
+<style>
+
+</style>
+
+<textarea class="test" name="toto"></textarea>
+<textarea class="test" name="toto"></textarea>
+
+<script>
+
+	$(document).ready(function(){
+
+		$('.test').my_wysiwyg({radius:20,sound:1,autoSave:0,allowSave:0});
+
+	});
+</script>
+</body>
+</html>
